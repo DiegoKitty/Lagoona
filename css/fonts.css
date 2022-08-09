@@ -1,0 +1,16 @@
+
+@font-face {
+    font-family: "Muller Regular";
+    src: url("../fonts/MRegular/MullerRegular.eot") format('EOT'),
+         url("../fonts/MRegular/MullerRegular.ttf") format('TTF'),
+         url("../fonts/MRegular/MullerRegular.woff") format('WOFF');
+}
+
+@font-face {
+    font-family: 'Muller Bold';
+    src: url('../fonts/MBold/MullerBold.eot') format('EOT'),
+         url('../fonts/MBold/MullerBold.svg') format('SVG'),
+         url('../fonts/MBold/MullerBold.ttf') format('TTF'),
+         url('../fonts/MBold/MullerBold.woff') format('WOFF');
+}
+   
