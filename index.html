@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lagoona</title>
+    <link rel="stylesheet" href="./css/normylez.css">
     <link rel="stylesheet" href="./css/lagoona.css">
     <link rel="stylesheet" href="./css/fonts.css">
 </head>
@@ -13,18 +14,28 @@
      <!-- HEADER -->
 
     <header class="header">
-        <div class="container">
+        <div class="container header-container">
             
             <div class="logo">
                 <a href="#" class="logo_icon">
-                    <img src="./img/logo.jpg" alt="Лого Lagoon">
+                    <img class="logo-border-img" src="./img/logo.jpg" alt="Лого Lagoon">
                 </a>
                 <a class="logo-tell" href="tell:+74953225448">
                     +7-495-322-54-48
                 </a>
-                <a href="#" class="logo-personal-account">Личный кабинет</a>
+                <a href="#" class="logo-personal-account">
+                    <svg class="personal-account-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.59 7.41L15.17 11H1V13H15.17L11.58 16.59L13 18L19 12L13 6L11.59 7.41ZM20 6V18H22V6H20Z" fill="#CC9933"/>
+                        </svg>
+                    Личный кабинет   
+                </a>
             </div>
 
+
+           
+
+            
+<div class="logo-container">
             <nav class="logo-nav">
                 <ul class="logo-nav-list"> 
 
@@ -82,6 +93,7 @@
 
             </ul>
         </div>
+        </div>
     </header>
 
     <!-- HEADER -->
@@ -89,7 +101,7 @@
     <!-- SECTION SPECIAL-OFFERS -->
 
     <section class="special-offer">
-        <div class="container">
+        <div class="container container-offers">
             <h2 class="section-descriptions">
                 Спецпредложения
             </h2>
@@ -97,15 +109,14 @@
             <div class="offer-travel">
                 <div class="left-offer-travel">
                     <div class="left-top-offer">
-                      <img class="left-img-top" src="./img/Мальдивские острова.jpg" alt="Мальдивы">
                       <div class="left-top-offer-description">
-                        <h3 class="left-offer-heading">
-                            Мальдивские острова
+                        <h3 class="left-offer-heading offer-heading">
+                            Мальдивские <br> острова
                         </h3>
-                        <span class="left-offer-cost">
-                            От 55000  &#8381;
+                        <span class="left-offer-cost offer-cost">
+                            от 55000  &#8381;
                         </span>
-                        <a href="" class="left-offer-more">
+                        <a href="" class="left-offer-more offer-more">
                             <span class="offer-more-text">
                                 Подробнее
                             </span>
@@ -117,15 +128,14 @@
                     </div>
 
                     <div class="left-bot-offer">
-                      <img class="left-img-bot" src="./img/Остров Крит.png" alt="Остров Крит">
                       <div class="left-bot-offer-description">
-                        <h3 class="left-offer-heading">
-                            Горящий тур на остров крит
+                        <h3 class="left-offer-heading offer-heading">
+                            Горящий <br> тур на остров крит
                         </h3>
-                        <span class="left-offer-cost">
-                            От 30000  &#8381;
+                        <span class="left-offer-cost offer-cost">
+                            от 30000  &#8381;
                         </span>
-                        <a href="" class="left-offer-more">
+                        <a href="" class="left-offer-more offer-more">
                             <span class="offer-more-text">
                                 Подробнее
                             </span>
@@ -139,15 +149,15 @@
 
 
                 <div class="right-offer-travel">           
-                        <img class="right-img-offer" src="./img/Люкс Отели.jpg" alt="Отели">
+                        
                         <div class="right-offer-description">
-                          <h3 class="right-offer-heading">
-                              Номер категории люкс
+                          <h3 class="right-offer-heading offer-heading">
+                              Номер <br> категории <br> люкс
                           </h3>
                           <span class="right-offer-cost">
-                              От 5000  &#8381;
+                              от 5000  &#8381;
                           </span>
-                          <a href="" class="right-offer-more">
+                          <a href="" class="right-offer-more offer-more">
                               <span class="offer-more-text">
                                   Подробнее
                               </span>
@@ -183,14 +193,14 @@
       <!-- SECTION SERVICES -->
 
       <section class="services">
-        <div class="container">
+        <div class="container services-container">
             <h2 class="section-descriptions">
                 Услуги
             </h2>
 
             <ul class="services-list">
 
-                <li class="services-item services-bg">
+                <li class="services-item services-bg-1">
                     <div class="services-description">
                         <a href="" class="servisec-heading">
                             <strong class="services-about">
@@ -206,7 +216,7 @@
                     </div>
                 </li>
 
-                <li class="services-item services-bg">
+                <li class="services-item services-bg-2">
                     <div class="services-description">
                         <a href="" class="servisec-heading">
                             <strong class="services-about">
@@ -222,7 +232,7 @@
                     </div>
                 </li>
 
-                <li class="services-item services-bg">
+                <li class="services-item services-bg-3">
                     <div class="services-description">
                         <a href="" class="servisec-heading">
                             <strong class="services-about">
@@ -238,7 +248,7 @@
                     </div>
                 </li>
 
-                <li class="services-item services-bg">
+                <li class="services-item services-bg-4">
                     <div class="services-description">
                         <a href="" class="servisec-heading">
                             <strong class="services-about">
@@ -264,7 +274,7 @@
        <!-- SECTION ADVANTAGES -->
 
         <section class="advantages">
-            <div class="container">
+            <div class="container container-advantages">
                 <h2 class="section-descriptions">
                      Преимущества
                 </h2>
@@ -463,7 +473,7 @@
 
         <section class="placement">
             <div class="container">
-                <h2 class="section-description">
+                <h2 class="section-descriptions">
                     Размещение
                 </h2>
                 <ul class="placement-list">
@@ -474,24 +484,23 @@
                             <div class="placement-item-cost">
                                 <span class="placement-from-cost">от</span>
                                 <span class="placement-item-cost">4698</span>
-                                / ночь
+                                <span class="placement-item-time">  / ночь</span>
                                 <img class="star" src="./img/Звезда+.png" alt="Рейтинг отеля 4 из 5">
                                 <img class="star" src="./img/Звезда+.png" alt="">
                                 <img class="star" src="./img/Звезда+.png" alt="">
                                 <img class="star" src="./img/Звезда+.png" alt="">
                                 <img class="star" src="./img/Звезда -.png" alt="">
+                            </div>
+               
                                 <p class="placement-hotel-name">
                                     Lagoona española
                                 </p>
                                 <p class="placement-gps">
                                     Барселона, Испания
                                 </p>
-                                <a href="" class="placement-list-btn">
-                                    <button class="placement-button">
+                                <a href="" class="placement-list-link">                          
                                         Номера
-                                    </button>
-                                </a>
-                            </div>
+                                </a>                      
                         </div>
                     </li>
 
@@ -501,24 +510,24 @@
                             <div class="placement-item-cost">
                                 <span class="placement-from-cost">от</span>
                                 <span class="placement-item-cost">5148</span>
-                                / ночь
+                                <span class="placement-item-time">  / ночь</span>
                                 <img class="star" src="./img/Звезда+.png" alt="Рейтинг отеля 4 из 5">
                                 <img class="star" src="./img/Звезда+.png" alt="">
                                 <img class="star" src="./img/Звезда+.png" alt="">
                                 <img class="star" src="./img/Звезда+.png" alt="">
                                 <img class="star" src="./img/Звезда -.png" alt="">
+                            </div>
+                           
                                 <p class="placement-hotel-name">
                                     Lagoona son típicas
                                 </p>
                                 <p class="placement-gps">
                                     Барселона, Испания
                                 </p>
-                                <a href="" class="placement-list-btn">
-                                    <button class="placement-button">
-                                        Номера
-                                    </button>
-                                </a>
-                            </div>
+                                <a href="" class="placement-list-link">                          
+                                    Номера
+                                </a>   
+                           
                         </div>
                     </li>
 
@@ -528,25 +537,24 @@
                             <div class="placement-item-cost">
                                 <span class="placement-from-cost">от</span>
                                 <span class="placement-item-cost">6254</span>
-                                / ночь
+                                <span class="placement-item-time">  / ночь</span>
                                 <img class="star" src="./img/Звезда+.png" alt="Рейтинг отеля 5 из 5">
                                 <img class="star" src="./img/Звезда+.png" alt="">
                                 <img class="star" src="./img/Звезда+.png" alt="">
                                 <img class="star" src="./img/Звезда+.png" alt="">
                                 <img class="star" src="./img/Звезда+.png" alt="">
-                                
+                            </div>
+                        
                                 <p class="placement-hotel-name">
                                     Lagoona de la guerra
                                 </p>
                                 <p class="placement-gps">
                                     Барселона, Испания
                                 </p>
-                                <a href="" class="placement-list-btn">
-                                    <button class="placement-button">
-                                        Номера
-                                    </button>
-                                </a>
-                            </div>
+                                <a href="" class="placement-list-link">                          
+                                    Номера
+                                </a>   
+                            
                         </div>
                     </li>
 
@@ -556,25 +564,24 @@
                             <div class="placement-item-cost">
                                 <span class="placement-from-cost">от</span>
                                 <span class="placement-item-cost">6320</span>
-                                / ночь
+                                <span class="placement-item-time">  / ночь</span>
                                 <img class="star" src="./img/Звезда+.png" alt="Рейтинг отеля 5 из 5">
                                 <img class="star" src="./img/Звезда+.png" alt="">
                                 <img class="star" src="./img/Звезда+.png" alt="">
                                 <img class="star" src="./img/Звезда+.png" alt="">
                                 <img class="star" src="./img/Звезда+.png" alt="">
-                                
+                            </div>
+                            
                                 <p class="placement-hotel-name">
                                     Lagoona mentira piadosa
                                 </p>
                                 <p class="placement-gps">
                                     Барселона, Испания
                                 </p>
-                                <a href="" class="placement-list-btn">
-                                    <button class="placement-button">
-                                        Номера
-                                    </button>
-                                </a>
-                            </div>
+                                <a href="" class="placement-list-link">                          
+                                    Номера
+                                </a>   
+                          
                         </div>
                     </li>
 
@@ -584,24 +591,24 @@
                             <div class="placement-item-cost">
                                 <span class="placement-from-cost">от</span>
                                 <span class="placement-item-cost">6457</span>
-                                / ночь
+                                <span class="placement-item-time">  / ночь</span>
                                 <img class="star" src="./img/Звезда+.png" alt="Рейтинг отеля 4 из 5">
                                 <img class="star" src="./img/Звезда+.png" alt="">
                                 <img class="star" src="./img/Звезда+.png" alt="">
                                 <img class="star" src="./img/Звезда+.png" alt="">
                                 <img class="star" src="./img/Звезда -.png" alt="">
+                            </div>
+                            
                                 <p class="placement-hotel-name">
                                     Lagoona empujar la creatividad
                                 </p>
                                 <p class="placement-gps">
                                     Барселона, Испания
                                 </p>
-                                <a href="" class="placement-list-btn">
-                                    <button class="placement-button">
-                                        Номера
-                                    </button>
-                                </a>
-                            </div>
+                                <a href="" class="placement-list-link">                          
+                                    Номера
+                                </a>   
+                            
                         </div>
                     </li>
 
@@ -611,24 +618,24 @@
                             <div class="placement-item-cost">
                                 <span class="placement-from-cost">от</span>
                                 <span class="placement-item-cost">6420</span>
-                                / ночь
+                                <span class="placement-item-time">  / ночь</span>
                                 <img class="star" src="./img/Звезда+.png" alt="Рейтинг отеля 4 из 5">
                                 <img class="star" src="./img/Звезда+.png" alt="">
                                 <img class="star" src="./img/Звезда+.png" alt="">
                                 <img class="star" src="./img/Звезда+.png" alt="">
                                 <img class="star" src="./img/Звезда -.png" alt="">
+                            </div>
+                            
                                 <p class="placement-hotel-name">
                                     Lagoona el retorno
                                 </p>
                                 <p class="placement-gps">
                                     Барселона, Испания
                                 </p>
-                                <a href="" class="placement-list-btn">
-                                    <button class="placement-button">
-                                        Номера
-                                    </button>
-                                </a>
-                            </div>
+                                <a href="" class="placement-list-link">                          
+                                    Номера
+                                </a>   
+                            
                         </div>
                     </li>
 
@@ -638,25 +645,24 @@
                             <div class="placement-item-cost">
                                 <span class="placement-from-cost">от</span>
                                 <span class="placement-item-cost">6505</span>
-                                / ночь
+                                <span class="placement-item-time">  / ночь</span>
                                 <img class="star" src="./img/Звезда+.png" alt="Рейтинг отеля 5 из 5">
                                 <img class="star" src="./img/Звезда+.png" alt="">
                                 <img class="star" src="./img/Звезда+.png" alt="">
                                 <img class="star" src="./img/Звезда+.png" alt="">
                                 <img class="star" src="./img/Звезда+.png" alt="">
-                               
+                            </div>
+                            
                                 <p class="placement-hotel-name">
                                     Lagoona mentira piadosa
                                 </p>
                                 <p class="placement-gps">
                                     Барселона, Испания
                                 </p>
-                                <a href="" class="placement-list-btn">
-                                    <button class="placement-button">
-                                        Номера
-                                    </button>
-                                </a>
-                            </div>
+                                <a href="" class="placement-list-link">                          
+                                    Номера
+                                </a>   
+                            
                         </div>
                     </li>
 
@@ -666,36 +672,33 @@
                             <div class="placement-item-cost">
                                 <span class="placement-from-cost">от</span>
                                 <span class="placement-item-cost">6824</span>
-                                / ночь
+                                <span class="placement-item-time">  / ночь</span>
                                 <img class="star" src="./img/Звезда+.png" alt="Рейтинг отеля 4 из 5">
                                 <img class="star" src="./img/Звезда+.png" alt="">
                                 <img class="star" src="./img/Звезда+.png" alt="">
                                 <img class="star" src="./img/Звезда+.png" alt="">
                                 <img class="star" src="./img/Звезда -.png" alt="">
+                            </div>
+                            
                                 <p class="placement-hotel-name">
                                     Lagoona suerte siguió siempre
                                 </p>
                                 <p class="placement-gps">
                                     Барселона, Испания
                                 </p>
-                                <a href="" class="placement-list-btn">
-                                    <button class="placement-button">
-                                        Номера
-                                    </button>
-                                </a>
-                            </div>
+                                <a href="" class="placement-list-link">                          
+                                    Номера
+                                </a>   
+                           
                         </div>
                     </li>
 
-                    <li class="placement-list-item">
-                        <img src="./img/9 отель.jpg" alt="Lagoona española" class="placement-item-icon">
-                        <a class="placement-last-item-description">
-                            <span class="placement-last-item">
-                                Посмотреть все варианты
-                            </span>
+                    <li class="placement-last-list-item">
+                        <a href="" class="placement-last-item-description">
+                            Посмотреть все варианты
                             <svg class="placement-svg" width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M0.778175 1.22183L8.55635 9L0.778175 16.7782" stroke="white" stroke-width="2"/>
-                                </svg>
+                            <path d="M0.778175 1.22183L8.55635 9L0.778175 16.7782" stroke="white" stroke-width="2"/>
+                            </svg>
                         </a>
                     </li>
 
@@ -704,7 +707,7 @@
             </div>
         </section>
 
-
+        
 
 
     

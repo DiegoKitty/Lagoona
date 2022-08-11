@@ -1,10 +1,458 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1em;
+    background-color: #E5E5E5;;
+}
 
 body {
     font-family: "Muller Regular";
     font: medium;
 }
 
-.header {
-    font-family: "Muller Bold";
+a {
+    text-decoration: none;
 }
+
+ul {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+/* <!-- HEADER --> */
+
+.header {
+    height: 185px;
+}
+
+.logo {
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+
+}
+
+.logo-border-img {
+    border-radius: 15px;
+    margin-right: 0;
+}
+
+.logo-tell {
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #666666;
+}
+
+.logo-personal-account {
+    height: 100%;
+    margin-left: auto;
+    display: flex;
+    align-items: center;  
+    font-weight: 400;
+    color: #CC9933;  
+}
+
+.personal-account-icon {
+    margin-right: 5px;
+    display: inline-block;
+    color: #CC9933;
+}
+
+.logo-container {
+    height: 70px;
+    width: 1170px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.logo-nav {
+    padding-left: 45px;
+    padding-right: 55px;
+}
+
+.logo-nav-link {
+    color: #666666;
+}
+
+.logo-nav-list, .nav-btn {  
+    display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+.logo-nav-item:not(:last-child) {
+    margin-right: 45px;
+}
+
+.nav-btn {
+    padding-left: 55px;
+}
+
+.nav-btn-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.nav-btn-item {
+    padding: 13px 20px;
+    border-radius: 15px;
+    border: 1px solid #CC9933;
+}
+
+.nav-btn-link {
+    color: #CC9933;
+}
+
+/* <!-- HEADER --> */
+
+/* SECTION SPECIAL-OFFERS */
+
+.special-offer {
+    padding-top: 55px;
+}
+
+.section-descriptions {
+    margin: 0;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #333333;
+}
+
+.offer-travel {
+    display: flex;
+}
+
+.left-offer-travel {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-top-offer,.left-bot-offer {
+    min-width: 560px;
+    min-height: 260px;
+    padding: 40px 0px 35px 45px;
+    margin-bottom: 25px;
+    display: inline-block;
+    flex-basis: 50%;
+    border-radius: 15px;
+}
+
+.left-bot-offer {
+    margin-bottom: 0;
+}
+
+.offer-heading { 
+    margin: 0;
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.offer-cost {
+    padding-bottom: 40px;
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.offer-more {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    color: #F0BF5F;
+}
+
+.svg-more {
+    margin-left: 10px;
+}
+
+.left-top-offer {
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%,
+     rgba(53, 65, 83, 0) 65.7%),
+     url(../img/Мальдивские\ острова.jpg)
+}
+
+.left-bot-offer {
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%,
+     rgba(53, 65, 83, 0) 65.7%),
+     url(../img/Остров\ Крит.png)
+}
+
+.right-offer-travel {
+    margin-left: 25px;
+    min-height: 100%;
+    border-radius: 15px;
+    background-image: url(../img/Люкс\ Отели.jpg);
+}
+
+
+.right-offer-description {
+    min-width: 570px;
+    min-height: 100%;
+    padding-top: 215px;
+    padding-left: 45px;
+}
+
+
+.right-offer-heading {
+    padding-bottom: 25px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    color: #FFFFFF;  
+}
+
+.right-offer-cost {
+    display: block;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+/* SECTION SPECIAL-OFFERS */
+
+/* SECTION ABOUT US */
+
+.about-us {
+    margin-top: 65px;
+}
+
+.about-us-text {
+    margin: 0;
+    font-weight: 400;
+    line-height: 200%;
+    color: #000000;
+}
+
+/* SECTION ABOUT US */
+
+/* SECTION SERVICES */
+
+.services {
+    margin-top: 70px;
+}
+
+
+.services-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+
+.services-item  {
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+.services-bg-1 {
+    background-image: url(../img/1\ сервис.jpg);
+}
+
+.services-bg-2 {
+    background-image: url(../img/2\ сервис.jpg);
+}
+
+.services-bg-3 {
+    background-image: url(../img/3\ сервис.jpg);
+}
+
+.services-bg-4 {
+    background-image: url(../img/4\ сервис.jpg);
+}
+
+.services-description {
+    margin-top: 200px;
+    margin-left: 30px;
+}
+
+.servisec-heading {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 200%;
+    color: #CC9933;  
+}
+
+.services-description-text {
+    margin: 0;
+    margin-bottom: 45px;
+    font-weight: 400;
+    line-height: 200%;
+    color: #000000;
+}
+
+/* SECTION SERVICES */
+
+/* SECTION ADVANTAGES */
+
+.advantages {
+    margin-top: 70px;
+}
+
+.advantages-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(280px);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+
+.advantages-list-item {
+    padding: 40px 0px 40px 45px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.advantages-item-text {
+    display: inline-block;
+    width: 200px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+}
+
+/* SECTION ADVANTAGES */
+
+/* SECTION  PlACEMENT */
+
+.placement {
+    margin-top: 70px;
+}
+
+.placement-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+
+.placement-list-item {
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.placement-item-icon {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.placement-item-description {
+    padding: 30px 0px 45px 45px;
+   
+}
+
+.placement-item-cost {
+    display: flex;
+    align-items: center;
+}
+
+.placement-from-cost {
+    display: inline-block;
+    padding-right: 3px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.placement-item-cost {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+ 
+}
+
+.placement-item-time {
+    font-weight: 400;
+    padding-left: 4px;
+    padding-right: 50px;
+}
+
+.star {
+    width: 15px;
+    height: 15px;
+}
+
+.placement-gps {
+    padding-bottom: 20px;
+    color: #999999;
+}
+
+.placement-list-link {
+    padding: 15px 20px;
+    border: 1px solid;
+    border-radius: 15px;
+    color: #CC9933;
+}
+
+.placement-last-list-item {
+     
+    padding-top: 355px;
+    background-image: url(../img/9\ отель.jpg);
+    border-radius: 15px;
+}
+
+.placement-last-item-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 200%; 
+    color: #FFFFFF;
+}
+.placement-svg {
+    margin-left: 5px;
+}
+
+/* SECTION  PlACEMENT */
+
+
+
+
+
+
+
 
