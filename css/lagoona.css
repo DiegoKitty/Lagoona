@@ -6,7 +6,7 @@ html {
     font-family: sans-serif;
     font-size: 16px;
     line-height: 1em;
-    background-color: #E5E5E5;;
+    background-color: #E5E5E5;
 }
 
 body {
@@ -449,9 +449,282 @@ img {
 
 /* SECTION  PlACEMENT */
 
+/* SECTION  FORM */
+
+.travel {
+    margin-top: 70px;
+    
+}
+
+.container-travel {
+    padding-bottom: 45px;
+    background-color:#E9E9E9;
+}
+
+.section-form-description {
+    padding-top: 43px;
+    padding-bottom: 17px;
+}
+
+.section-travel-action {
+    display: flex;
+    align-items: center;
+    padding: 30px 28px 40px 28px;
+    width: 1080px;
+    height: 106px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+label, select, input {
+    display: block;
+    text-align: left;
+    border: none;
+}
+
+select { 
+    margin-top: 15px;
+    appearance: none;
+    background-image: url(../img/Стрелка\ форма.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 10px 6px;
+}
+
+input {
+    margin-top: 15px;
+    max-width: 124px;
+}
+
+.form-select-coutry {
+    padding-right: 77px;
+}
+
+.form-select-city {
+    padding-right: 27px;
+}
+
+.travel-form-list {
+    display: flex;
+    align-items: center;
+}
+
+.travel-form-item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.travel-form-item:last-child {
+    margin-right: 51px;
+}
+
+.travel-form-label {
+    font-size: 12px;
+    line-height: 1;
+}
+
+.travel-form-option {
+    font-size: 16px;
+    line-height: 1;
+}  
+
+.travel-form-input:not(:first-child) {
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.travel-link-text {
+    margin-right: 0;
+    padding: 15px 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #CC9933;
+    background-color: transparent;
+    border: 1px solid #CC9933;
+    border-radius: 15px;
+}
+
+/* SECTION  FORM */
+
+/* SECTION CONTACTS */
+
+.contacts {
+    margin-top: 70px;
+}
+
+.contacts-data {
+    display: flex;
+    padding: 45px;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.contacts-data-left-block {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.contacts-data-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-data-item {
+    padding-right: 53px;
+    
+}
+
+.contacts-data-item:not(:last-child) {
+    padding-bottom: 27px;
+}
+
+.contacts-data-text {
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 1px solid  #E9E9E9;
+}
+
+.data-item-heading {
+    display: inline-block;
+    min-width: 145px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.contacts-data-right {
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.data-item-tell-text, .data-item-email-text {
+    color: #CC9933;
+}
+
+.data-right-email-text {
+    display: block;
+    color: #999999;
+}
+
+.contacts-data-right-block {
+    display: flex;
+}
+
+.contacts-data-item-gps {
+   margin-top: 47px;
+}
+
+.data-link-gps-description {
+    display: inline-block;
+    padding: 30px;
+    color: #CC9933;
+    border: 1px solid #CC9933;
+    border-radius: 10px;
+}
+
+/* SECTION CONTACTS */
+
+/* SECTION FOOTER */
+
+.footer {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.footer-description {
+    position: relative;
+    display: flex;
+    padding: 50px 40px 50px 45px;
+    background-color: #333333;
+    border-radius: 15px;
+}
+
+.footer-logo {
+    position: absolute;
+    bottom: 0;
+    left: 695px;
+    width: 254px;
+    height: 228px;
+   background-image: url(../img/футер\ лого.svg);
+   background-repeat: no-repeat;
+  
+}
 
 
+.footer-left-list, 
+.footer-center-list , 
+.footer-right-list {
+    display: flex;
+    flex-direction: column;
+}
 
+.footer-left-item {
+    max-width: 310px;
+}
+
+.footer-left-item:not(:last-child) {
+    margin-bottom: 53px;
+}
+
+
+.footer-left-text {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 190%;
+}
+
+.footer-left-agreement {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #CC9933;
+}
+
+
+.footer-center-list {
+    margin-left: 125px;
+    max-width: 365px;
+}
+
+.footer-center-item:not(:last-child) {
+    margin-bottom: 27px;
+}
+
+.footer-center-adress {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.footer-center-tel,
+.footer-center-email {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #CC9933;
+}
+
+
+.footer-right-list {
+    margin-left: auto;
+}
+
+.footer-center-item-soc {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 19px;
+}
 
 
 
