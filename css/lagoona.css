@@ -74,6 +74,13 @@ img {
     align-items: center;  
     font-weight: 400;
     color: #CC9933;  
+    transition: .3s;
+}
+
+.logo-personal-account:hover {
+    padding: 3px;
+    border: 2px solid #CC9933;
+    border-radius: 10px;
 }
 
 .personal-account-icon {
@@ -96,8 +103,24 @@ img {
     padding-right: 55px;
 }
 
+.logo-nav-item {
+    transition: .5s;
+}
+
+
+.logo-nav-item:hover {
+    transform: scale(1.2);
+    padding-bottom: 1px;
+    border-bottom: 2px solid rgb(91, 34, 237);
+    border-radius: 5px;
+}
+
 .logo-nav-link {
     color: #666666;
+}
+
+.logo-nav-link:hover {
+    color: #3bc8ac;
 }
 
 .logo-nav-list, .nav-btn {  
@@ -120,13 +143,25 @@ img {
 }
 
 .nav-btn-item {
-    padding: 13px 20px;
     border-radius: 15px;
     border: 1px solid #CC9933;
 }
 
+.nav-btn-item:hover {
+    border: 1px solid#3c4745;
+}
+
 .nav-btn-link {
+    display: block;
+    padding: 13px 20px;
     color: #CC9933;
+    border-radius: 15px;
+    transition: color .3s linear, background .5s linear;
+}
+
+.nav-btn-link:hover {
+    background-color: #3c4745;
+    color: #fff;
 }
 
 /* <!-- HEADER --> */
@@ -314,6 +349,12 @@ img {
     font-size: 20px;
     line-height: 200%;
     color: #CC9933;  
+    transition: color .8s linear, transform 1s linear;
+}
+
+.servisec-heading:hover {
+    color: #2386b0;
+    transform: translate(5%, -25%);
 }
 
 .services-description-text {
@@ -425,13 +466,28 @@ img {
     border: 1px solid;
     border-radius: 15px;
     color: #CC9933;
+    transition: color .3s linear, background .5s linear;
+}
+
+.placement-list-link:hover {
+    color: #fff;
+    background-color: #614773;
 }
 
 .placement-last-list-item {
-     
+    position: relative;
     padding-top: 355px;
     background-image: url(../img/9\ отель.jpg);
     border-radius: 15px;
+}
+
+.placement-last-item-description:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .placement-last-item-description {
@@ -544,6 +600,13 @@ input {
     background-color: transparent;
     border: 1px solid #CC9933;
     border-radius: 15px;
+     cursor: pointer;
+     transition: 1s;
+}
+
+.travel-link-text:hover {
+    transform: scale(1.2);
+
 }
 
 /* SECTION  FORM */
@@ -607,7 +670,14 @@ input {
 
 .data-item-tell-text, .data-item-email-text {
     color: #CC9933;
+    transition: color .4s;
 }
+
+.data-item-tell-text:hover {
+    color: #666666;
+}
+
+
 
 .data-right-email-text {
     display: block;
@@ -720,11 +790,12 @@ input {
     margin-left: auto;
 }
 
-.footer-center-item-soc {
+.footer-right-item-soc {
     width: 25px;
     height: 25px;
     margin-bottom: 19px;
 }
+
 
 
 
